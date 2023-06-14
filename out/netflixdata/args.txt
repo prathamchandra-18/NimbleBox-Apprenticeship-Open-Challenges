@@ -1,0 +1,1 @@
+trainer.py --fp 'netflix_titles.csv' --lr 0.001
