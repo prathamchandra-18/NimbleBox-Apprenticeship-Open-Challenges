@@ -18,7 +18,7 @@ This command will initiate training from the last checkpoint and save the model 
 ### Serving
 To serve the model, run the server using the following command: <br/>
 `python -m uvicorn server:app --reload` <br/>
-This will start a server locally with the IP address 127.0.0.1 and port number 8000, and the endpoint will be '/generatetext'.<br/>
+This will start a server locally with the IP address 127.0.0.1 and port number 8000, and the endpoint will be `/generatetext`.<br/>
 To send a request to this server, use the following JSON format: `{"text": "Enter Your Prompt Here", "max_length": "Enter the maximum length of your reply here"}`<br/>
 The output message will be in the format: `{"generated_text":"This is the generated text."}`<br/>
 
