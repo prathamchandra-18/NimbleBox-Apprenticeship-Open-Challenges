@@ -5,6 +5,7 @@ This repository contains the challenge by NimbleBox.ai for the ML Engineer inter
 To get started, download all the files by running the following command locally: `git clone https://github.com/prathamchandra-18/NimbleBox-Apprenticeship-Open-Challenges.git`<br/>
 Next, initialize the submodule using the command: `git submodule init` <br/>
 To update the submodules from the remote, run: `git submodule update --force --recursive --init --remote`<br/>
+Imprt the minGPT directory by the following command: `git clone https://github.com/karpathy/minGPT.git`<br/>
 Change the directory to `minGPT/` and install it by running the command: <br/>
 `pip install -e .` <br/>
 Now we are ready to proceed with training and serving our model.
