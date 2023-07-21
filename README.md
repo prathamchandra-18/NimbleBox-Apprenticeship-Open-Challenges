@@ -1,4 +1,4 @@
-# NimbleBox-Apprenticeship-Open-Challenges
+# Multithreaded LLM Deployment
 This repository contains the challenge by NimbleBox.ai for the ML Engineer internship role.<br/>
 
 ## Instructions
